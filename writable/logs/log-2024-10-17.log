@@ -1,0 +1,30 @@
+CRITICAL - 2024-10-17 05:24:25 --> ErrorException: Undefined variable $customers
+[Method: GET, Route: customer]
+in APPPATH\Views\Customer.php on line 37.
+ 1 APPPATH\Views\Customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customers', 'D:\\laragon\\www\\customer-client\\codeigniter4-framework-2849e7f\\app\\Views\\Customer.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\customer-client\\codeigniter4-framework-2849e7f\\app\\Views\\Customer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer', [], true)
+ 5 APPPATH\Controllers\Customer.php(18): view('customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\customer-client\\codeigniter4-framework-2849e7f\\public\\index.php')
+CRITICAL - 2024-10-17 05:34:33 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: customer]
+in APPPATH\Views\customer.php on line 37.
+ 1 APPPATH\Views\customer.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'D:\\laragon\\www\\customer-client\\codeigniter4-framework-2849e7f\\app\\Views\\customer.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\customer-client\\codeigniter4-framework-2849e7f\\app\\Views\\customer.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('customer', [], true)
+ 5 APPPATH\Controllers\Customer.php(18): view('customer', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Customer->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\laragon\\www\\customer-client\\codeigniter4-framework-2849e7f\\public\\index.php')
